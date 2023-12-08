@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btns{
+    width: 740px;
+    margin: 10px auto;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 8px;
+}
+.color-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+.color-btns button{
+    padding: 3px;
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+}
+.add-todo {
+  max-width: 740px;
+  background-color: rgb(185, 185, 185);
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+.add-todo form {
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-todo input {
+  padding: 7px;
+  border: none;
+  width: 180px;
+  border-radius: 7px;
+  margin: 0 7px;
+}
+.add-todo input:hover {
+  background-color: rgb(255, 227, 191);
+}
+.add-todo button {
+  padding: 7px;
+  border: none;
+  border-radius: 7px;
+  margin: 0 7px;
+  background-color: rgb(28, 170, 0);
+  color: aliceblue;
+}
+.add-todo button:hover {
+  background-color: rgb(71, 218, 13);
+  color: rgb(255, 255, 255);
+}
+
+.display-todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.display-todo p {
+  padding: 5px;
+  width: 300px;
+  margin: 5px 7px;
+  border: 1px dotted rgb(255, 215, 155);
+  border-radius: 7px;
+  background-color: rgb(255, 219, 172);
+}
+.display-todo p:hover {
+  background-color: burlywood;
+  color: rgb(255, 255, 255);
+}
+
+.display-todo button {
+  padding: 7px;
+  border: none;
+  border-radius: 7px;
+  margin: 0 7px;
+  background-color: rgb(187, 0, 0);
+  color: aliceblue;
+}
+.display-todo button:hover {
+  background-color: rgb(255, 51, 0);
+}
